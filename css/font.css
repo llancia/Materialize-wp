@@ -1,0 +1,42 @@
+/*
+font.css
+
+Settings for custom font typesettings
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic|Roboto+Condensed:400,700,400italic);
+
+@font-face {
+    font-family: 'socicon';
+    src: url('../font/socicon/socicon-webfont.eot');
+    src: url('../font/socicon/socicon-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/socicon/socicon-webfont.woff') format('woff'),
+    url('../font/socicon/socicon-webfont.woff2') format('woff2'),
+    url('../font/socicon/socicon-webfont.ttf') format('truetype'),
+    url('../font/socicon/socicon-webfont.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    font-family: 'Roboto', sans-serif;  
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+ font-family: 'Roboto Condensed', sans-serif;   
+}
+
+.socicon {
+    font-family: 'socicon' !important;
+    text-transform: none !important;
+
+}
+
+/*.imperfont{
+ font-family: 'Roboto Condensed', sans-serif;   
+ }*/

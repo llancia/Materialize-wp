@@ -1,0 +1,17 @@
+/*
+Theme Name: Materiliazie_WP
+Theme URI: http://lorenzolancia.eu/materialize-wp
+Description: A theme based on materialize.css
+Author: Lorenzo Lancia
+Author URI: http://lorenzolancia.eu/
+Version: 1.0
+Tags: responsive, white, materliazecss
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+
+*/
+
+@import url(css/materialize.css);
+@import url(css/materializewp.css);
